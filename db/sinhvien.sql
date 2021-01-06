@@ -23,7 +23,20 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
+--
+-- Table structure for table `dangnhap`
+--
 
+CREATE TABLE `tintuc` (
+  `noidung` VARCHAR(255)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tintuc`
+--
+
+INSERT INTO `tintuc` (`noidung`) VALUES
+('Quản lý sinh viên!');
 --
 -- Table structure for table `dangnhap`
 --
